@@ -1,0 +1,32 @@
+/*reseteo css*/
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+/* Mobile*/
+
+@media (min-width:360px)  {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+        
+
+    header {
+     background-color: maroon;
+    color: white;
+    display: flex;
+    flex-direction: row;
+ }   
+
+.header__icono {
+    width: 80px;
+}   
+
+.listas {
+    text-decoration: none;
+    
+}
